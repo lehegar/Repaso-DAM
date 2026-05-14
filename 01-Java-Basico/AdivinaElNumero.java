@@ -9,6 +9,7 @@ public class AdivinaElNumero {
         Scanner scanner = new Scanner(System.in);
 
         int numeroAleatorio = random.nextInt(100)+1;
+        System.out.println("DEBUG: " + numeroAleatorio);
         int intentos = 1; 
 
         System.out.println("¿Qué número crees que es?");
@@ -30,7 +31,11 @@ public class AdivinaElNumero {
     }   
 
     System.out.println("HAS ACERTADO");
-}}
+    System.out.println("TUS INTENTOS HAN SIDO: " + intentos);
+
+    scanner.close();
+}     
+}
 
 
 
