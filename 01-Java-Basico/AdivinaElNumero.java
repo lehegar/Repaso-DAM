@@ -30,7 +30,7 @@ public class AdivinaElNumero {
     }   
 
     System.out.println("HAS ACERTADO");
-}
+}}
 
 
 
