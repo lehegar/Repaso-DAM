@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculadora {
+public class Calculadora_Numeros {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
